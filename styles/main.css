@@ -1,0 +1,44 @@
+div {
+    border-radius: 10px;
+}
+
+#central-block{
+    border: 3px solid red;
+}
+
+#top-block{
+    border: 3px solid rgb(0, 255, 34);
+}
+
+.top-input{
+    background: rgb(0, 255, 170);
+}
+
+#block-parent div{
+    cursor:ew-resize;
+}
+
+#test-elements div{
+    width: 100px;
+    height: 45px;
+}
+
+div.test{
+    border-radius: 10px;
+    background: green;
+}
+
+div.test:hover{
+    background: rgb(200, 255, 0);
+    cursor: pointer;
+}
+
+input#focus-test-input.class1.class2:hover{
+    border:2px solid rgb(141, 141, 255);
+    border-radius: 15px;
+}
+
+input#focus-test-input.class1.class2:focus{
+    border:2px solid blue;
+    border-radius: 15px;
+}
